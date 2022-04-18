@@ -8,6 +8,9 @@ import { HighlightDirective } from './highlight.directive';
 import { ComponentsComponent } from './components/components.component';
 import { ModelsComponent } from './models/models.component';
 import { ServicesComponent } from './services/services.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SearchuserComponent } from './components/searchuser/searchuser.component';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ServicesComponent } from './services/services.component';
     HighlightDirective,
     ComponentsComponent,
     ModelsComponent,
-    ServicesComponent
+    ServicesComponent,
+    NavbarComponent,
+    SearchuserComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
