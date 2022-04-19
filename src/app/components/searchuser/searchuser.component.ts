@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output, EventEmitter } from '@angular/core';
+import { UsersearchService } from 'src/app/services/usersearch.service';
 
 @Component({
   selector: 'app-searchuser',
@@ -7,8 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchuserComponent implements OnInit {
 
-  constructor() { }
+  public userQuery!: any;
+  @Output() searchResults = new EventEmitter<any>()
 
+  constructor(public searchuserservice: UsersearchService) { }
+
+  searchGithubUser(login:string){
+    this.searchResults.emit(this.userQuery);
+  }
+  
   ngOnInit(): void {
   }
 
