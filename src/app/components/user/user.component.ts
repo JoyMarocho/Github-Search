@@ -10,7 +10,7 @@ import { Repo } from 'src/app/models/repo';
 })
 export class UserComponent implements OnInit {
 
-  user!: User;
+  user: any;
   repos: any;
 
   constructor(public userService: UsersearchService) { }
@@ -33,7 +33,6 @@ export class UserComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.searchGithubUser(JoyMarocho)
-  }
-
+    this.searchGithubUser("JoyMarocho");
+}
 }

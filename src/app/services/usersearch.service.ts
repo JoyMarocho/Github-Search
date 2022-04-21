@@ -10,6 +10,8 @@ import { environment } from 'src/environments/environment';
 })
 export class UsersearchService {
 
+//username:string= "JoyMarocho";
+
   user!:User;
   repos!:Repo;
 
@@ -23,14 +25,14 @@ export class UsersearchService {
       login: string;
       bio: string
       created_at: Date;
-      avatar_url:string;
+      avatar_url: string;
     }
 
     let userUrl = 'https://api.github.com/users/'+login+'?client_id='+environment.clientId + "&client_secret="+environment.clientSecret;
 
     let promise = new Promise<void>((resolve,reject) =>{
       this.http.get<IUser>(userUrl).toPromise().then(response => {
-        this.User = response;
+        this.user = response;
 
       resolve()
     },
@@ -43,6 +45,10 @@ export class UsersearchService {
     return promise;
   }
 
+// updateUser( githubUser: string )  {
+//   this.username = githubUser;
+
+// }
 
   getUserRepo(login:string){
     interface IRepo{
