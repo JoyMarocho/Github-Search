@@ -1,6 +1,90 @@
-# GithubSearch
+# Github-Search
+##### By JOy Marocho
+### It is a description of finding Github Users.
+## Table of Content
++ [Description](#description)
++ [Prerequisites](#prerequisites)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Development Server](#development-server)
++ [Code Scaffolding](#code-scaffolding)
++ [Build](#build)
++ [Running Unit Tests](#running-unit-tests)
++ [Running End To End tests](#running-end-to-end-tests)
++ [Further Help](#further-help)
++ [Authors Info](#author-Info)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+## Description
+<p>This application lets a user enter their Github Username into a form, submit it, and see the names and descriptions of their public repositories. Additionally, a person can look up repositories.</p>
+<p>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.</p>
+
+### Prerequisites
+To create a component, verify that you have met the following prerequisites:
+
+-   Install the Angular CLI.
+-   Create an Angular workspace with initial application. If you don't have a project, create one using ng new <project-name>, where <project-name> is the name of your Angular application.
+
+## Setup/Installation Requirements
+* Visual Studio (VS) Code or Atom Editor will be essential.
+* One must also clone the github repository <https://github.com/JoyMarocho/Github-Search.git>.
+* Use Go Live on VS Code.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ 
+## Technology Used
+ * HTML
+ * CSS
+ * Angular (13.3.1)
+ * Javascript
+ * Any text editor of your choice 
+ 
+ [Go Back to the top](#Github-Search)
+
+### Development
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
+ 
+ [Go Back to the top](#Github-Search)
+
+  ## Licence
+ 
+ MIT License
+ 
+ Copyright (c) [2022] [JOY MAROCHO]
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ 
+ [Go Back to the top](#Github-Search)
 
 ## Development server
 
@@ -25,3 +109,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+ ## Authors Info
+ 
+ -  Email: joymarocho@gmail.com
+
+-    Linked - [JOY MAROCHO](https://www.linkedin.com/in/joy-marocho-553b3b12a/)
+
+ -  Slack Profile - [JOY MAROCHO](https://app.slack.com/client/T0101L740P4/D0330AQB1PSlack%20Profile%20-%20[JOY%20MAROCHO](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXhttps://app.slack.com/client/T0101L740P4/D0330AQB1PSlack%20Profile%20-%20[JOY%20MAROCHO](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXCHMCNP?cdn_fallback=1)WCHMCNP?cdn_fallback=1)W)
+ 
+ [Go Back to the top](#Github-Search)
