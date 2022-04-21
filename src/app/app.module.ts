@@ -3,9 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
-import { ComponentsComponent } from './components/components.component';
-import { ModelsComponent } from './models/models.component';
-import { ServicesComponent } from './services/services.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -23,9 +20,7 @@ import { HighlightDirective } from './highlight.directive';
     NavbarComponent,
     SearchuserComponent,
     UserComponent
-    ComponentsComponent,
-    ModelsComponent,
-    ServicesComponent,
+  
   ],
   imports: [
     BrowserModule,

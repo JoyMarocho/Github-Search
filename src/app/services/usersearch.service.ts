@@ -30,7 +30,7 @@ export class UsersearchService {
 
     let promise = new Promise<void>((resolve,reject) =>{
       this.http.get<IUser>(userUrl).toPromise().then(response => {
-        this.user = response;
+        this.User = response;
 
       resolve()
     },
